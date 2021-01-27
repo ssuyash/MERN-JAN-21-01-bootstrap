@@ -1,3 +1,19 @@
 .text-alag{
     color:aqua;
 }
+
+.sticky-left-center{
+    position: fixed;
+    background-color: #fff;
+    top:45vh;
+    left: 0;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.social-links{
+    list-style-type: none;
+    font-size:22px;
+    color:#000;
+}
+
