@@ -6,7 +6,7 @@ num3 = num3 + 10 //102010
 num3 = num3 - 10 // 102000
 num3 = num3 + '5' // 1020005
 
-num3 = num3%10 // 5
+num3 = num3 % 10 // 5
 num3 = num3 + 10 // 15
 
 num3 = num3 + true
