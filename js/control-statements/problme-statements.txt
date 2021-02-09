@@ -1,0 +1,83 @@
+>>>   WAP to swap values of two variables.
+            A = 10
+            B = 20 
+
+            //LOGIC          
+
+            CONSOLE.LOG(A) //20
+            CONSOLE.LOG(B) //10
+
+>>>   WAP to swap values of two variables without using third variable.
+            A = 10
+            B = 20 
+            //LOGIC 
+            CONSOLE.LOG(A) //20
+            CONSOLE.LOG(B) //10    
+
+>>>     Write a  program to find maximum between two numbers.
+
+>>>     Write a  program to find maximum between three numbers.
+
+>>>     Write a  program to check whether a number is negative, positive or zero.
+
+>>>     Write a  program to check whether a number is divisible by 5 and 11 or not.
+
+>>>     Write a  program to check whether a number is even or odd.
+
+>>>     Write a  program to check whether a year is leap year or not.
+	4 100 400
+
+
+
+>>>     Write a  program to input any alphabet and check whether it is vowel or consonant.		
+
+>>>     Write a  program to input week number and print week day.
+ day = 1
+
+ 1 => monday
+ 2 => tuesday
+ 3 => wednesday
+ 4 => thursday
+ 5 => friday
+ 6 => saturday
+ 7 => sunday
+
+>>>     Write a  program to input month number and print number of days in that month.
+
+>>>     Write a  program to count total number of notes in given amount.
+
+>>>     Write a  program to input angles of a triangle and check whether triangle is valid or not.
+
+>>>     Write a  program to input all sides of a triangle and check whether triangle is valid or not.
+
+>>>     Write a  program to check whether the triangle is equilateral, isosceles or scalene triangle.
+
+>>>     Write a  program to find all roots of a quadratic equation.
+
+>>>     Write a  program to calculate profit or loss.
+
+>>>     Write a  program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and 
+        Computer. Calculate percentage and grade according to following:
+			Percentage >= 90% : Grade A
+			Percentage >= 80% : Grade B
+			Percentage >= 70% : Grade C
+			Percentage >= 60% : Grade D
+			Percentage >= 40% : Grade E
+			Percentage < 40% : Grade F
+
+
+>>>     Write a  program to input basic salary of an employee and calculate its Gross salary according to following:
+			Basic Salary <= 10000 : HRA = 20%, DA = 80%
+			Basic Salary <= 20000 : HRA = 25%, DA = 90%
+			Basic Salary > 20000 : HRA = 30%, DA = 95%
+			
+>>>     Write a  program to input electricity unit charges and calculate total electricity bill 
+		according to the given condition:
+			For first 50 units Rs. 0.50/unit = meter1 50
+			For next 100 units Rs. 0.75/unit = meter2 150
+			For next 100 units Rs. 1.20/unit = meter 3 250
+			For unit above 250 Rs. 1.50/unit = meter 4 
+			An additional surcharge of 20% is added to the bill
+
+
+>>>     tax calculator
