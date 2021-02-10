@@ -17,9 +17,8 @@ if(a>b){
     }
 }
 
-
 console.log(big)
-
 //using conditional operator
 var big = a>b ? (a>c ? a : c) : (b>c ? b : c)  
 console.log(big)
+
