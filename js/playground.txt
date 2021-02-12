@@ -1,0 +1,8 @@
+>> for getting input from user :
+    prompt('message to the user')
+    it returns user inserted values in string form
+
+>> to parse a variable into number
+    parseInt()
+    parseFloat()
+    
