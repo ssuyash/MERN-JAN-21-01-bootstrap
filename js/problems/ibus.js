@@ -52,9 +52,6 @@ function getDistance(src, dst){
     dist = dist < 0 ? -1*dist : dist
 
     return dist
-    
-
-
 }
 
 
@@ -84,6 +81,23 @@ var fare  = 0
 }
 
 
+
+function getTimeFare(tripTime){
+    if(tripTime <= 10){
+        return 0;
+    }
+    var additionalTime = tripTime - 10
+
+    var additionalFare = (additionalTime - additionalTime%5)/5 + (additionalTime%5 == 0 ? 0 : 1)
+    return additionalFare
+    //return Math.ceil(additionalTime/5)
+}
+
+function getFinalFare(source, destination, time){
+   return getFare(source, destination) + getTimeFare(time)
+}
+
 var source = "BHANWARKUA"
 var destination = "PALASIA"
-console.log(getFare(source, destination))
+var journeyTime = 34
+console.log(getFinalFare(source, destination, journeyTime) )
