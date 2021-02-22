@@ -38,3 +38,18 @@ m2.moveRight()
 console.log(m2.posX)
 
 console.log(m1)
+
+
+var Person = function(name, age){
+    this.name = name
+    this.age  = age
+    var abc = "xyz"
+
+    this.getAbc = ()=> abc
+    this.setAbc = (newVal)=>{
+        abc = newVal
+    }
+}
+
+var p1 = new Person("suyash", 1994)
+console.log(p1.name, p1.age, p1.setAbc("mno"), p1.getAbc())

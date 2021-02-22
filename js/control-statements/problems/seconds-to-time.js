@@ -1,4 +1,11 @@
-var givenSeconds = 98767801
+var dob = "05 Nov 1994 00:12:00 GMT"
+
+var dobMillis = Date.parse(dob)
+var currentMillis = Date.now()
+
+var miliseconds = currentMillis - dobMillis
+
+var givenSeconds = parseInt(miliseconds / 1000)
 
 var secsInOneYr = 12*30*24*60*60
 var secsInOneMnth = 30*24*60*60
