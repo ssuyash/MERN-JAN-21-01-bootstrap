@@ -97,3 +97,15 @@ nmsarr.reduce((tmp, el)=>{
 
     return tmp+el
 })
+
+
+
+var arr = [2, 1, 30, 20, 9, 40, 74]
+var sorted = arr.sort((a, b)=>{
+    return b-a
+})
+
+console.log(sorted)
+
+var maxSumSubArray = sorted.slice(0, 4 )
+console.log(maxSumSubArray)
