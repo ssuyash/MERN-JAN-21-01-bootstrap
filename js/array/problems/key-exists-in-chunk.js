@@ -12,13 +12,10 @@ while(endInd <= arr.length-1){
     endInd = endInd+chunkSize
 }
 
-
 var keyPresentInAllChunks = true
 chunks.forEach((el)=>{
     if(el.indexOf(key) == -1){
         keyPresentInAllChunks = false
     }
 })
-
-
 console.log(keyPresentInAllChunks)

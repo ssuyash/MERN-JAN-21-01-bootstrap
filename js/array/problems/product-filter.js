@@ -792,3 +792,9 @@ var filtered = products.filter((el)=>{
 })
 
 console.log(filtered)
+
+var item = products.find((el)=>{
+  el.sku == 'N36478119A'
+})
+
+console.log(item)
