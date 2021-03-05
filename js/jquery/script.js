@@ -83,3 +83,11 @@ function resetCount(){
         $(this).find('.count').text(count++)
     })
 }
+
+setTimeout(function(){
+    alert("Time out")
+}, 5000)
+
+setInterval(function(){
+    console.log("hello")
+}, 3000)
