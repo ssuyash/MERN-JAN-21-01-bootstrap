@@ -84,10 +84,14 @@ function resetCount(){
     })
 }
 
-setTimeout(function(){
-    alert("Time out")
-}, 5000)
 
-setInterval(function(){
-    console.log("hello")
-}, 3000)
+$('.ch-dim').click(function(){
+    $('.mydiv').animate({'width':'250px', 'height':'250px'}, 3000)
+})
+// setTimeout(function(){
+//     alert("Time out")
+// }, 5000)
+
+// setInterval(function(){
+//     console.log("hello")
+// }, 3000)
